@@ -3,7 +3,7 @@
 A small async FastAPI service that aggregates a GitHub user's public repo data into a single, clean JSON summary.
 
 # Goal
-With the help of the Claude Agent I was able to not just learn FastAPI, but Github Actions as well. With the intention of using both a a springboard to becoming more proficient at Python (and it's surrounding technologies).
+Built while learning FastAPI and GitHub Actions hands-on, using AI-assisted guidance to work through the concepts and debug real issues along the way — part of a broader push toward becoming more proficient in Python and cloud-adjacent tooling.
 
 ## Example
 

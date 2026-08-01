@@ -1,9 +1,11 @@
 from fastapi import FastAPI
+from mangum import Mangum
 import httpx
 from models import ProfileSummary
 from errors import check_github_response
 
 app = FastAPI()
+handler = Mangum(app)
 
 @app.get('/profile/{username}', response_model=ProfileSummary)
 async def get_profile(username: str):
